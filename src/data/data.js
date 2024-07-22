@@ -54,4 +54,37 @@ export const projects = [
         source: '#',
         demo: '#'
     },
+
+    {
+        id: 12,
+        year: 2024,
+        title: 'AiQuizGen',
+        level: 'Intermediate',
+        description: 'AIQuizGen is an innovative web application designed to create customized quizzes from URLs, particularly YouTube videos. This tool is built using HTML, CSS, Gemini API, Vanta.js, and JavaScript',
+        source: '#',
+        demo: '#'
+    },
+
+    
+]
+
+export const experience= [
+    {
+        id: 1,
+        year: "Jan 2024 - April 2024",
+        title: 'TCW Intern',
+        companyName: 'GeeksforGeeks',
+        description: 'AIQuizGen is an innovative web application designed to create customized quizzes from URLs, particularly YouTube videos. This tool is built using HTML, CSS, Gemini API, Vanta.js, and JavaScript',
+        
+    },
+    {
+        id: 22,
+        year: 2024,
+        title: 'gfg',
+        companyName: 'Intermediate',
+        description: 'AIQuizGen is an innovative web application designed to create customized quizzes from URLs, particularly YouTube videos. This tool is built using HTML, CSS, Gemini API, Vanta.js, and JavaScript',
+       
+    },
+ 
+    
 ]

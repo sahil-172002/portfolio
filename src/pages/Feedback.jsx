@@ -59,12 +59,13 @@ function Feedback() {
     return (
         <main className="mt-20">
             <h1 className="text-3xl font-bold dark:text-gray-200 text-gray-800">
-                Feedback
+                Get in Touch
             </h1>
 
             <p className="mt-5 w-full font-medium dark:text-gray-200 text-gray-600 text-lg leading-relaxed">
-                Thank you for visiting my website. Your feedback helps me improve and provide a better experience for future visitors.
-                Please take a moment to share your thoughts 😇
+            Reach out for questions, collaborations, or just to connect!
+
+
             </p>
 
 
@@ -154,11 +155,11 @@ function Feedback() {
                         <div className="mt-10 w-full max-w-md bg-green-500/30 dark:bg-green-600/30 border border-green-400 dark:border-green-500 p-3 rounded">
                             <h2 className="text-lg font-semibold dark:text-gray-200 text-gray-800 flex items-center gap-2">
                                 <img className="w-5 h-5" src="/check.png" alt="check-icon" />
-                                Feedback received
+                                Message received
                             </h2>
 
                             <p className="mt-2 w-full font-medium dark:text-gray-300 text-gray-600 text-base leading-relaxed">
-                                Thank you for your feedback! It helps me continue to improve and grow. Your input is greatly appreciated.
+                                Thank you for your Message, I will get back to you soon!
                             </p>
                         </div >
                     )

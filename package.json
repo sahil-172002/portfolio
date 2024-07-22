@@ -15,7 +15,8 @@
     "lucide-react": "^0.400.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-router-dom": "^6.24.1"
+    "react-router-dom": "^6.24.1",
+    "react-typewriter-effect": "^1.1.0"
   },
   "devDependencies": {
     "@types/react": "^18.3.3",

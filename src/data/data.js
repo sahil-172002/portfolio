@@ -52,18 +52,20 @@ export const projects = [
         level: 'Intermediate',
         description: 'AIQuizGen is an innovative web application designed to create customized quizzes from URLs, particularly YouTube videos. This tool is built using HTML, CSS, Gemini API, Vanta.js, and JavaScript',
         source: '#',
-        demo: '#'
+        demo: 'https://ai-quiz-gen.vercel.app/'
     },
 
     {
         id: 12,
-        year: 2024,
+        year: 2023,
         title: 'AiQuizGen',
         level: 'Intermediate',
         description: 'AIQuizGen is an innovative web application designed to create customized quizzes from URLs, particularly YouTube videos. This tool is built using HTML, CSS, Gemini API, Vanta.js, and JavaScript',
         source: '#',
         demo: '#'
     },
+
+   
 
     
 ]
@@ -74,15 +76,15 @@ export const experience= [
         year: "Jan 2024 - April 2024",
         title: 'TCW Intern',
         companyName: 'GeeksforGeeks',
-        description: 'AIQuizGen is an innovative web application designed to create customized quizzes from URLs, particularly YouTube videos. This tool is built using HTML, CSS, Gemini API, Vanta.js, and JavaScript',
+        description: 'At GeeksforGeeks, I authored over 10 technical articles, enhancing community understanding with practical code examples. I contributed valuable content to the tech community, helping readers grasp complex concepts more easily.',
         
     },
     {
         id: 22,
-        year: 2024,
-        title: 'gfg',
-        companyName: 'Intermediate',
-        description: 'AIQuizGen is an innovative web application designed to create customized quizzes from URLs, particularly YouTube videos. This tool is built using HTML, CSS, Gemini API, Vanta.js, and JavaScript',
+        year: "Feb 2023 - Apr 2023",
+        title: 'Web Development Intern',
+        companyName: 'Bizatcloud Solutions',
+        description: 'As a web dev intern, I designed and developed user-friendly loan module pages, utilizing technologies like HTML, CSS, JavaScript, APIs, and Bootstrap. My work aimed to make web applications more intuitive and efficient for users.',
        
     },
  

@@ -1,5 +1,6 @@
 export const Instagram = "#"
 export const Github = "#"
+export const LinkedIn = "https://www.linkedin.com/in/sahil-andhare-3248b5205/"
 export const College = "#"
 export const HTML = "https://developer.mozilla.org/en-US/docs/Web/HTML"
 export const CSS = "https://developer.mozilla.org/en-US/docs/Web/CSS"

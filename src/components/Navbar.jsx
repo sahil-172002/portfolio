@@ -2,6 +2,7 @@ import { NavLink } from "react-router-dom"
 import Button from "./ui/Button"
 import { useEffect, useState } from "react"
 import { Github } from "../data/links"
+import { LinkedIn } from "../data/links"
 import Carousel from "./ui/Carousel"
 
 const navs = [
@@ -32,6 +33,14 @@ const navs = [
         path: Github,
         icon: "/github.png",
         className: "w-5 h-5 dark:invert"
+    },
+
+    {
+        id: 5,
+        name: "LinkedIn",
+        path: LinkedIn,
+        icon: "/linkedin.png",
+        className: "w-5 h-5"
     },
 ]
 
@@ -69,7 +78,7 @@ function Navbar() {
     }, [])
 
     return (
-        <nav className="fixed top-0 py-3 sm:py-5 px-5 md:px-0 inset-x-0 w-full mx-auto bg-white/95 dark:bg-gray-primary/95">
+        <nav className="fixed top-0 py-3 sm:py-5 px-5 md:px-0 inset-x-0 w-full mx-auto bg-white/95 dark:bg-gray-900">
             <div className="w-full max-w-2xl mx-auto flex flex-col sm:flex-row gap-3 items-start sm:items-center justify-between">
                 <div className="w-full py-1 flex items-center justify-between sm:hidden ">
                     <img className="w-10 h-10 rounded-full" src="/logo.jpg" alt="logo" />
@@ -81,9 +90,9 @@ function Navbar() {
                                     <img className="w-5 h-5" src="/sun.png" alt="light-mode" />
                                 ) :
                                 (
-                                    <img className="w-5 h-5" src="/moon.png" alt="dark-mode" />
+                                    <img className="w-5 h-5 dark:border-yellow-800" src="/moon.png" alt="dark-mode" />
                                 )
-                        }
+                        }   
                     </Button>
                 </div>
 
@@ -93,7 +102,7 @@ function Navbar() {
                             <NavLink
                                 to={nav.path}
                                 className={({ isActive }) =>
-                                    `dark:hover:bg-gray-secondary hover:bg-gray-200 w-fit p-2 rounded-md border dark:border-gray-secondary border-gray-300 text-gray-700 dark:text-gray-300 transition-colors duration-300 flex items-center gap-2 snap-end ${isActive && 'dark:bg-gray-secondary bg-gray-200 dark:text-gray-100 text-gray-600'}`
+                                    `dark:hover:bg-gray-secondary hover:bg-gray-200 w-fit p-2 rounded-md border dark:border-yellow-800 border-gray-300 text-gray-700 dark:text-gray-300 transition-colors duration-300 flex items-center gap-2 snap-end ${isActive && 'dark:bg-gray-secondary bg-gray-200 dark:text-gray-100 text-gray-600'}`
                                 }
                             >
                                 <img className={nav.className} src={nav.icon} alt="navIcon" />

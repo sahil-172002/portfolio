@@ -9,7 +9,7 @@ function Home() {
         <a
           href="/sahil-resume.pdf"
           target="_blank"
-          className="p-2 mr-3 text-gray-700 dark:text-white dark:border-white rounded-md border border-gray-700 font-bold"
+          className="p-2 mr-3 text-gray-700 dark:text-white dark:border-white-900 rounded-md border border-gray-700 font-bold"
         >
           Resume
         </a>
@@ -26,22 +26,23 @@ function Home() {
 
         <img
           id="profilePic"
-          className="w-32 h-32 mr-6 pt-2  my-2"
+          className="w-34 h-32 mr-6 pt-2  my-2 object-cover "
           src="./enderman.png"
           alt="enderman"
         />
       </section>
 
-      <section className="mt-8 max-w-2xl">
-        <h3 className="text-xl font-bold dark:text-gray-200 text-gray-600">
-          Skills
-        </h3>
-
-        <ul className="flex flex-col sm:flex-row flex-wrap gap-8 mt-4 items-start">
+      <section className="mt-6 max-w-2xl">
+      <div className="flex justify-center">
+  <h3 className="text-xl font-bold dark:text-gray-200 text-gray-600">
+    Skills
+  </h3>
+</div>
+        <ul className="flex flex-col sm:flex-row flex-wrap gap-8 mt-8 items-start">
           {skills.map((skill) => (
             <li
               key={skill.description}
-              className="flex items-center gap-2 md:border border-gray-300 dark:md:border-gray-secondary md:p-3 rounded-lg w-full md:max-w-xs h-full md:h-20"
+              className="flex items-center gap-2 md:border border-gray-300 dark:md:border-white-900 md:p-3 rounded-lg w-full md:max-w-xs h-full md:h-20"
             >
               <i className={`${skill.iconClass} text-3xl`} alt="skillIcon" />
               <p className="text-base font-medium dark:text-gray-200 text-gray-700">
@@ -52,12 +53,12 @@ function Home() {
         </ul>
       </section>
 
-      <section className="mt-8 flex gap-4 flex-col justify-center w-full items-center">
-        <h3 className="text-xl font-bold dark:text-gray-200 text-gray-600">
+      <section className=" flex gap-4 flex-col justify-center w-full items-center">
+        <h3 className="text-xl mt-10 font-bold dark:text-gray-200 text-gray-600">
           My Experience
         </h3>
 
-        <div className="flex flex-row justify-between items-center w-full flex-wrap">
+        <div className=" mt-6 flex flex-row justify-between items-center w-full flex-wrap">
           
 
           <ul className="flex gap-7 justify-center items-center flex-wrap">
@@ -78,12 +79,12 @@ function Home() {
       </section>
 
 
-      <section className="mt-8 flex gap-4 flex-col justify-center w-full items-center">
+      <section className="mt-10 flex gap-4 flex-col justify-center w-full items-center">
         <h3 className="text-xl font-bold dark:text-gray-200 text-gray-600">
           My Work
         </h3>
 
-        <div className="flex flex-row justify-between items-center w-full flex-wrap">
+        <div className="mt-6 flex flex-row justify-between items-center w-full flex-wrap">
         
 
           <ul className="flex gap-7 justify-center items-center flex-wrap">

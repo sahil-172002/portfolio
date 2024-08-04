@@ -24,7 +24,7 @@ function Project({ id, year, title, description, source, demo, level }) {
     const difficultyTheme = difficultyThemeClasses[level];
 
     return (
-        <div key={id} className="dark:bg-gray-secondary bg-gray-200 p-4 rounded-lg w-full sm:max-w-xs border dark:border-gray-tertiary border-gray-300">
+        <div key={id} className="dark:bg-slate-900 bg-gray-200 p-4 rounded-lg w-full sm:max-w-xs border dark:border-gray-tertiary border-gray-300">
             <p className="font-mono text-green-500 text-lg">
                 {year}
             </p>

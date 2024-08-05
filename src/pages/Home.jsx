@@ -19,7 +19,7 @@ function Home() {
               Sahil Andhare
             </h1>
             <p className="w-full  mt-2 font-medium dark:text-gray-200 text-gray-600 text-lg leading-relaxed">
-              Web Dev & Designer | TCW Intern @GFG
+             Web Developer | Software Engineer | TCW  
             </p>
           </span>
         </div>
@@ -42,7 +42,7 @@ function Home() {
           {skills.map((skill) => (
             <li
               key={skill.description}
-              className="flex items-center gap-2 md:border border-gray-300 dark:md:border-white-900 md:p-3 rounded-lg w-full md:max-w-xs h-full md:h-20"
+              className="flex items-center justify-center gap-2 md:border border-gray-300 dark:md:border-white-900 md:p-3 rounded-lg w-full md:max-w-xs h-full md:h-20"
             >
               <i className={`${skill.iconClass} text-3xl`} alt="skillIcon" />
               <p className="text-base font-medium dark:text-gray-200 text-gray-700">

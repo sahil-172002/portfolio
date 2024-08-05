@@ -8,9 +8,9 @@ import Loader from './components/ui/Loader.jsx'
 const App = lazy(() =>
   new Promise(
     resolve => setTimeout(
-      () => resolve(import('./App.jsx')), 1
-    )))
-
+      () => resolve(import('./App.jsx')), 1000
+    ))
+);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

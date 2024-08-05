@@ -90,7 +90,7 @@ function Navbar() {
                                     <img className="w-5 h-5" src="/sun.png" alt="light-mode" />
                                 ) :
                                 (
-                                    <img className="w-5 h-5 dark:border-yellow-800" src="/moon.png" alt="dark-mode" />
+                                    <img className="w-5 h-5 dark:border-sky-900" src="/moon.png" alt="dark-mode" />
                                 )
                         }   
                     </Button>
@@ -102,7 +102,7 @@ function Navbar() {
                             <NavLink
                                 to={nav.path}
                                 className={({ isActive }) =>
-                                    `dark:hover:bg-gray-secondary hover:bg-gray-200 w-fit p-2 rounded-md border dark:border-yellow-800 border-gray-300 text-gray-700 dark:text-gray-300 transition-colors duration-300 flex items-center gap-2 snap-end ${isActive && 'dark:bg-gray-secondary bg-gray-200 dark:text-gray-100 text-gray-600'}`
+                                    `dark:hover:bg-gray-secondary hover:bg-gray-200 w-fit p-2 rounded-md border  dark:border-sky-900 border-gray-300 text-gray-700 dark:text-gray-300 transition-colors duration-300 flex items-center gap-2 snap-end ${isActive && 'dark:bg-gray-secondary bg-gray-200 dark:text-gray-100 text-gray-600'}`
                                 }
                             >
                                 <img className={nav.className} src={nav.icon} alt="navIcon" />

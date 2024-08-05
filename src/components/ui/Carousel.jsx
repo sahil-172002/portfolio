@@ -49,7 +49,7 @@ function Carousel({ children, className = "" }) {
 
 
     return (
-        <div className={`relative w-full max-w-xl ${className}`}>
+        <div className={`relative w-full  max-w-xl ${className}`}>
             {showPrev && (
                 <button
                     onClick={scrollLeft}

@@ -9,7 +9,7 @@ function Home() {
         <div>
         <a
           href="/sahil-resume.pdf"
-          target="_blank"
+          // target="_blank"
           className="p-2 mr-3 text-gray-700 text-center dark:text-white dark:border-white-900 rounded-md border border-gray-700 font-bold"
         >
           Resume

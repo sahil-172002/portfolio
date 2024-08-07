@@ -16,15 +16,18 @@ function Home() {
         </a>
         </div>
         <div id="namenrole" className="mr-12">
-          <span>
-            <h1 className="text-3xl  font-bold  dark:text-gray-200 text-gray-800">
-              Sahil Andhare
-            </h1>
-            <p className="w-full  mt-2 font-medium dark:text-gray-200 text-gray-600 text-sm md:text-lg leading-relaxed">
-             Web Developer | Software Engineer | TCW  
-            </p>
-          </span>
-        </div>
+  <h1 className="text-3xl font-bold dark:text-gray-200 text-gray-800">
+    Sahil Andhare
+  </h1>
+  <p className="w-full mt-2 font-medium dark:text-gray-200 text-gray-600 text-sm md:text-lg leading-relaxed">
+    Web Developer | TCW Intern @GFG
+  </p>
+  <p className="w-full mt-2 font-medium dark:text-gray-200 text-gray-600 text-sm md:text-lg leading-relaxed">
+    Ex-Web Dev Intern @Bizzatcloud Solutions
+  </p>
+ 
+</div>
+
 
         <img
           id="profilePic"
@@ -35,8 +38,9 @@ function Home() {
       </section>
 
       <section className="mt-6 max-w-2xl">
-      <div className="flex justify-center">
-  <h3 className="px-4 w-fit p-2 rounded-md border-2  dark:border-sky-900 border-gray-300 text-gray-700 dark:text-yellow-500 font-bold transition-colors duration-300 flex items-center gap-2 snap-end">
+      <div className="flex justify-center p-2">
+  <h3 className="px-4 w-fit p-2 rounded-md border-2  dark:border-sky-900 border-gray-300 text-gray-700 dark:text-yellow-500 font-bold transition-colors flex items-center gap-2 snap-end">
+  <img className="w-7 h-7 rounded-full" src="/skills.svg" alt="logo" />
     Skills
   </h3>
 </div>

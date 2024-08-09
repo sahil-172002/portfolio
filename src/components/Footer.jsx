@@ -21,6 +21,7 @@ function Footer() {
                         LinkedIn
                     </a>
                 </li>
+                
                 <li className="flex items-center gap-2">
                     <img className="w-5 dark:invert" src="/github.png" alt="github" />
                     <a className="hover:underline" target="_blank" href={Github}>

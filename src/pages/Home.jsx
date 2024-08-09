@@ -109,6 +109,7 @@ function Home() {
           </ul>
         </div>
       </section>
+      
     </main>
   );
 }

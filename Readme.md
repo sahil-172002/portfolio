@@ -12,8 +12,3 @@ This portfolio showcases my projects, skills, and experiences as a web developer
 - CSS
 - JavaScript
 
-## Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/sahil-172002/sahil-portfolio.git

@@ -8,7 +8,7 @@ import Loader from './components/ui/Loader.jsx'
 const App = lazy(() =>
   new Promise(
     resolve => setTimeout(
-      () => resolve(import('./App.jsx')), 1000
+      () => resolve(import('./App.jsx')), 200
     ))
 );
 

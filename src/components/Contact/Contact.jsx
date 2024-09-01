@@ -17,7 +17,7 @@ export default function Contact() {
                 <div className="md:flex md:w-1/2 h-[300px] sm:h-[450px]">
                     <iframe
                         title="google-maps"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7566.431502180361!2d73.94075895!3d18.51914995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c22145c0bf1b%3A0x785e59a319ccc1cd!2sAmanora%20Park%20Town%2C%20Hadapsar%2C%20Pune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1725210010053!5m2!1sen!2sin"
+                        src="   "
                         width="700"
                         height="400"
                         allowfullscreen=""

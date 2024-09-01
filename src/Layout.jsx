@@ -1,19 +1,47 @@
-import { Outlet } from "react-router-dom"
-import { Navbar } from "./components"
-import Footer from "./components/Footer"
+import React, { useEffect, useState } from "react";
+import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
+import { Outlet } from "react-router-dom";
+import { ThemeProvider } from "./context/theme";
+import About from "./components/About/About";
+import { Analytics } from "@vercel/analytics/react";
+import Aos from "aos";
+import './App.css';
 
 function Layout() {
-    return (
-        <div className="w-full h-full min-h-screen p-5 text-gray-50 dark:bg-gray-900">
-            <Navbar />
+  const [themeMode, setThemeMode] = useState("dark");
 
-            <div className="w-full max-w-2xl mx-auto py-10">
-                <Outlet />
-            </div>
+  const lightTheme = () => {
+    setThemeMode("light");
+  };
 
-            <Footer />
-        </div>
-    )
+  const darkTheme = () => {
+    setThemeMode("dark");
+  };
+
+  // actual change in theme
+
+  useEffect(() => {
+    document.querySelector("html").classList.remove("light", "dark");
+    document.querySelector("html").classList.add(themeMode);
+  }, [themeMode]);
+
+
+  useEffect(()=>{
+    Aos.init();
+  },[]);
+
+  return (
+      <ThemeProvider value={{ themeMode, lightTheme, darkTheme }}>
+          <Header />
+          <Outlet>
+              <About />
+              <Outlet />
+          </Outlet>
+          <Footer />
+          <Analytics />
+      </ThemeProvider>
+  );
 }
 
-export default Layout
+export default Layout;

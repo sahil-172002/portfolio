@@ -13,6 +13,7 @@
     "@vercel/analytics": "^1.2.2",
     "aos": "^2.3.4",
     "appwrite": "^15.0.0",
+    "axios": "^1.7.7",
     "clsx": "^2.1.1",
     "framer-motion": "^11.2.12",
     "gsap": "^3.12.5",

@@ -107,7 +107,7 @@ export default function Header() {
                             </li>
                             <li>
                                 <NavLink
-                                    to="/github"
+                                    to="https://github.com/sahil-172002"
                                     className={({ isActive }) =>
                                         `block py-2 pr-4 pl-3 duration-200 ${
                                             isActive

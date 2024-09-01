@@ -12,7 +12,7 @@ import Home from "./components/Home/Home.jsx";
 import About from "./components/About/About.jsx";
 import Contact from "./components/Contact/Contact.jsx";
 import User from "./components/User/User.jsx";
-import Github, { githubInfoLoader } from "./components/Github/Github.jsx";
+
 import Projects from "./components/Projects/Projects.jsx";
 import Skills from "./components/About/Skills.jsx";
 import Qualification from "./components/About/Qualification.jsx";
@@ -54,7 +54,7 @@ const router = createBrowserRouter(
         <Route path="/about/skills" element={<Skills />} />
       </Route>
       <Route path="/projects" element={<Projects />} />
-      <Route loader={githubInfoLoader} path="github" element={<Github />} />
+    
       <Route path="/contact" element={<Contact />} />
       <Route path="user/:userid" element={<User />} />
     </Route>

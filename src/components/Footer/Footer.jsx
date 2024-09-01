@@ -11,7 +11,7 @@ export default function Footer() {
                         <h2 className="text-[26px] leading-10 dark:text-white text-black font-[600] mb-5 md:text-[1.7rem]">
                         Want to create innovative products?
                         </h2>
-                        <a href="mailto:abhishekswami1435@gmail.com">
+                        <a href="mailto:sahil172002@gmail.com">
                             <button className="button-42">
                                 Hire Me <i class="ri-mail-send-line"></i>
                             </button>

@@ -8,7 +8,7 @@ function Github() {
 
     // const [Data, setData] = useState([]);
     // useEffect(() => {
-    //   fetch("https://api.github.com/users/swamiabhishek45")
+    //   fetch("https://api.github.com/users/sahil-172002")
     //     .then(response => response.json())
     //     .then((Data) => {
     //       setData(Data);
@@ -32,10 +32,10 @@ function Github() {
                 <div
                     data-aos="fade-left"
                     data-aos-duration="1500"
-                    className="bg-gray-400 dark:bg-gray-600 p-8 rounded-md w-full flex justify-center items-center"
+                    className="bg-gray-400 dark:bg-custom-blue p-8 rounded-md w-full flex justify-center items-center"
                 >
                     <GitHubCalendar
-                        username="swamiabhishek45"
+                        username="sahil-172002"
                         blockSize={15}
                         blockMargin={5}
                         color="#39d353"
@@ -51,7 +51,7 @@ export default Github;
 
 export const githubInfoLoader = async () => {
     const response = await fetch(
-        "https://api.github.com/users/swamiabhishek45"
+        "https://api.github.com/users/sahil-172002"
     );
     return response.json();
 };

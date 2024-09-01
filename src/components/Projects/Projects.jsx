@@ -51,7 +51,7 @@ function Projects() {
                         T3="Appwrite"
                         btn="Get Code"
                         LiveLink="https://mega-blog-project-bice.vercel.app/"
-                        GithubLink="https://github.com/swamiabhishek45/MegaBlog-Project"
+                        GithubLink="#"
                     />
                     {/* <Card
                         src={Soccer}

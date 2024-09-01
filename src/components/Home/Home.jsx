@@ -126,77 +126,7 @@ export default function Home() {
                                 </a>
                             </div>
                         </div>
-                        {/*====== Left End =========*/}
-                        {/* Hero img  i will add later - sahil */}
-                        {/* <BackgroundGradient className=" rounded-[22px] max-w-sm p-1 sm:p-1 bg-white dark:bg-zinc-900">
-                            <div className="basis-1/3">
-                                <figure className="flex items-center justify-center relative overflow-hidden">
-                                    <img
-                                        className="rounded-[22px] w-full h-full hover:scale-105 transition-transform duration-300"
-                                        data-aos="fade-up"
-                                        data-aos-duration="1500"
-                                        src={Hero}
-                                        alt=""
-                                    />
-                                    <div class="absolute inset-0  transition-opacity duration-300 rounded-md"></div>
-                                </figure>
-                            </div>
-                        </BackgroundGradient> */}
-                        {/* Hero content right pro / linked in / github/ streak   */}
-                        {/* <div className="md:basis-1/5 flex justify-between text-center mt-10 flex-wrap gap-2 md:mt-0 md:flex-col md:justify-end md:text-end">
-                            <div className="mb-10">
-                                <h2 className="font-[700] text-[32px] ">
-                                    <CountUp
-                                        start={0}
-                                        end={250}
-                                        duration={2}
-                                        suffix="+"
-                                    />
-                                </h2>
-                                <h4 className="font-[600] text-[18px]">
-                                    DSA Problems Solved
-                                </h4>
-                            </div>
-                            <div className="mb-10">
-                                <h2 className="font-[700] text-[32px]">
-                                    <CountUp
-                                        start={0}
-                                        end={100}
-                                        duration={2}
-                                        suffix="+"
-                                    />
-                                </h2>
-                                <h4 className="font-[600] text-[18px]">
-                                    Streak Achieved
-                                </h4>
-                            </div>
-                            <div className="mb-10">
-                                <h2 className="font-[700] text-[32px]">
-                                    <CountUp
-                                        start={0}
-                                        end={700}
-                                        duration={2}
-                                        suffix="+"
-                                    />
-                                </h2>
-                                <h4 className="font-[600] text-[18px]">
-                                    Code Commits
-                                </h4>
-                            </div>
-                            <div className="mb-10">
-                                <h2 className="font-[700] text-[32px]">
-                                    <CountUp
-                                        start={0}
-                                        end={10}
-                                        duration={2}
-                                        suffix="+"
-                                    />
-                                </h2>
-                                <h4 className="font-[600] text-[18px]">
-                                    Projects Completed
-                                </h4>
-                            </div>
-                        </div> */}
+                       
                     </div>
                 </div>
 

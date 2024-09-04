@@ -12,7 +12,7 @@ export default function Home() {
     return (
         <>
             <section
-                className="relative pt-0 dark:bg-[#0e1630] dark:text-white"
+                  className="w-full min-h-screen relative pt-0 overflow-hidden dark:bg-[#0e1630] dark:text-white"                            
                 id="about"
             >
                 <div className="container pt-14">
@@ -130,9 +130,9 @@ export default function Home() {
                     </div>
                 </div>
 
-                <div className="flex justify-center ">
-                    <img src={Down} alt="" className="hidden md:block animate-jump w-10 absolute " />
-                </div>
+                <div className="flex justify-center">
+                        <img src={Down} alt="" className="hidden top-3/4 md:block animate-jump w-10 absolute " />
+                    </div>
             </section>
             <About />
         </>

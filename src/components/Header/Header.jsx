@@ -28,7 +28,7 @@ export default function Header() {
                     : "  dark:bg-[#0e1630] "
             } sticky top-0 z-50 transition-all `}
         >
-            <nav className=" border-gray-200 px-4 g:px-6  py-2.5">
+            <nav className=" border-gray-200 overflow-x-hidden px-4 g:px-6  py-2.5">
                 <div className="flex flex-wrap justify-between items-center md:mx-40 mx-auto max-w-screen-xl">
                     <Link to="/" className="flex items-center mx-0">
                        <div className="p">

@@ -33,7 +33,7 @@ export default function Header() {
                 <div className="flex flex-wrap justify-between items-center md:mx-40 mx-auto max-w-screen-xl">
                     <Link to="/" className="flex items-center space-x-4 mx-0">
                         <div className="w-12 rounded-full">
-                            <img className="rounded-full" src="/public/sa_logo.jpg" alt="profile logo" />
+                            <img className="rounded-full" src="/sa_logo.jpg" alt="profile logo" />
                         </div>
                         <h1 className="px-0.5 text-3xl text-[#ca6202] font-bold">
                         Sahil Andhare  

@@ -130,7 +130,7 @@ export default function Home() {
                         <div className="rounded-full bg-gradient-to-r from-cyan-500 to-purple-800">
                             <img 
                                 className="rounded-full sm:w-60 md:w-72 p-1"
-                                src="/public/sa_profile_img.jpg" alt="profile pic" />
+                                src="/sa_profile_img.jpg" alt="profile pic" />
                         </div>
                     </div>
                 </div>

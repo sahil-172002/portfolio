@@ -22,20 +22,22 @@ export default function Header() {
     }, []); // Empty dependency array ensures that this effect runs only once on mount
     return (
         <header
+        // <div class="absolute top-0 z-[-2] h-screen w-screen bg-[#000000] bg-[radial-gradient(#ffffff33_1px,#00091d_1px)] bg-[size:20px_20px]"></div>
             className={`${
                 header
-                    ? " bg-white dark:bg-[#0e1630] shadow-custom dark:bg-accent"
-                    : "  dark:bg-[#0e1630] "
-            } sticky top-0 z-50 transition-all `}
+                    ? " bg-white dark:bg-[#0e1630] shadow-custom opacity-90 dark:bg-accent"
+                    : "  dark:bg-[#000000] bg-[radial-gradient(#ffffff33_1px,#00091d_1px)] bg-[size:20px_20px] "
+            } sticky top-0 z-50 transition-al `}
         >
-            <nav className=" border-gray-200 overflow-x-hidden px-4 g:px-6  py-2.5">
+            <nav className=" border-gray-200 overflow-x-hidden px-4 g:px-6 pt-2 pb-1">
                 <div className="flex flex-wrap justify-between items-center md:mx-40 mx-auto max-w-screen-xl">
-                    <Link to="/" className="flex items-center mx-0">
-                       <div className="p">
-                        <h1 className="mt-2 px-0.5 h-12 text-3xl text-[#ca6202] font-bold">
+                    <Link to="/" className="flex items-center space-x-4 mx-0">
+                        <div className="w-12 rounded-full">
+                            <img className="rounded-full" src="/public/sa_logo.jpg" alt="profile logo" />
+                        </div>
+                        <h1 className="px-0.5 text-3xl text-[#ca6202] font-bold">
                         Sahil Andhare  
                         </h1>
-                        </div>
                     </Link>
                     <span className="cursor-pointer md:hidden flex gap-4 items-center">
                         <ThemeBtn />

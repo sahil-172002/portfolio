@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
     return (
-        <section id="services" className="bg-white dark:bg-[#0e1630]">
+        <section id="services" className="bg-white dark:bg-[#00091D]">
             <div className="container lg:pt-5">
                 <div className="text-center">
                     <h2 className="font-[800] text-[2.4rem] mb-5 dark:text-white ">

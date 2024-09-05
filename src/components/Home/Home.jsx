@@ -12,11 +12,12 @@ export default function Home() {
     return (
         <>
             <section
-                  className="w-full min-h-screen relative pt-0 overflow-hidden dark:bg-[#0e1630] dark:text-white"                            
+                  className="w-full min-h-screen relative pt-0 overflow-hidden dark:bg-[#0e1630] dark:text-white bg-[#000000] bg-[radial-gradient(#ffffff33_1px,#00091d_1px)] bg-[size:20px_20px]"                            
                 id="about"
             >
                 <div className="container pt-14">
                     <div className="md:flex items-center justify-between sm: flex-col md:flex-row">
+                        
                         {/* Left side */}
                         <div className="w-full md:basis-1/2 mb-10">
                          
@@ -126,7 +127,11 @@ export default function Home() {
                                 </a>
                             </div>
                         </div>
-                       
+                        <div className="rounded-full bg-gradient-to-r from-cyan-500 to-purple-800">
+                            <img 
+                                className="rounded-full sm:w-60 md:w-72 p-1"
+                                src="/public/sa_profile_img.jpg" alt="profile pic" />
+                        </div>
                     </div>
                 </div>
 

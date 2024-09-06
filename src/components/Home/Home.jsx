@@ -12,7 +12,7 @@ export default function Home() {
     return (
         <>
             <section
-                className="md:min-h-[90vh] relative pt-0 overflow-hidden bg-[#fff] dark:bg-[#0e1630] dark:text-white bg-[radial-gradient(#0000004f_1px,#ffffff1a_1px)] bg-[size:20px_20px] dark:bg-[radial-gradient(#ffffff33_1px,#00091d_1px)] dark:bg-[size:20px_20px ] overflow-hidden"
+                className="min-h-[95vh] md:min-h-[90vh] relative pt-0 overflow-hidden bg-[#fff] dark:bg-[#0e1630] dark:text-white bg-[radial-gradient(#0000004f_1px,#ffffff1a_1px)] bg-[size:20px_20px] dark:bg-[radial-gradient(#ffffff33_1px,#00091d_1px)] dark:bg-[size:20px_20px ] overflow-hidden"
                 
                 
                 id="about"

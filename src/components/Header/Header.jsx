@@ -1,10 +1,16 @@
 import React, { useEffect, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import ThemeBtn from "../Theme Button/ThemeBtn";
+import { useLocation } from "react-router-dom";
 
 export default function Header() {
     const [open, setOpen] = useState(false);
     const [header, setHeader] = useState(false);
+    const [navbg, setNavBg] = useState(false);
+    const location = useLocation();    
+
+    console.log(navbg);
+    
 
     // Effect to handle scrolling and set the header state
     useEffect(() => {
@@ -20,14 +26,23 @@ export default function Header() {
             window.removeEventListener("scroll", handleScroll);
         };
     }, []); // Empty dependency array ensures that this effect runs only once on mount
+
+    useEffect(() => {
+        if (location.pathname === "/about" || location.pathname === "/projects") {
+            setNavBg(true);
+        } else {
+            setNavBg(false);
+        }
+    }, [location.pathname]);
     return (
         <header
         // <div class="absolute top-0 z-[-2] h-screen w-screen bg-[#000000] bg-[radial-gradient(#ffffff33_1px,#00091d_1px)] bg-[size:20px_20px]"></div>
             className={`${
                 header
                     ? "backdrop-blur"
-                    : "  dark:bg-[#000000] bg-[radial-gradient(#ffffff33_1px,#00091d_1px)] bg-[size:20px_20px] "
-            } sticky   top-0 z-50 transition-al`}
+                    : ` 
+                    ${navbg ? "bg-white dark:bg-[#00091D]" : "dark:bg-[#000000] dark:bg-[radial-gradient(#ffffff33_1px,#00091d_1px)] bg-[radial-gradient(#0000004f_1px,#ffffff1a_1px)] bg-[size:20px_20px]" }`
+            } sticky top-0 z-50 transition-al`}
         >
             <nav className=" border-gray-200 max-w-7xl mx-auto overflow-x-hidden px-4 g:px-6 pt-2 pb-1  ">
                 <div className="flex flex-wrap justify-between items-center  mx-auto max-w-screen-xl md:px-10">

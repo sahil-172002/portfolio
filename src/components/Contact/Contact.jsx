@@ -149,14 +149,14 @@ export default function Contact() {
               type="submit"
               disabled={isPending}
               className="dark:text-white text-gray bg-gray-800 hover:bg-gray-900 rounded-md font-medium py-2 px-4 flex items-center gap-2
-                                disabled:bg-gray-400
+                                
                                 disabled:text-gray-700
                                 dark:disabled:bg-gray-tertiary dark:disabled:text-gray-400"
             >
               {isPending && (
                 <img
                   className="w-5 dark:invert animate-spin invert-0"
-                  src="/public/loader.png"
+                  src="/loader.png"
                   alt="loader"
                 />
               )}
@@ -167,7 +167,7 @@ export default function Contact() {
       ) : (
         <div className="mt-10 w-full max-w-md bg-green-500/30 dark:bg-green-600/30 border border-green-400 dark:border-green-500 p-3 rounded">
           <h2 className="text-lg font-semibold dark:text-gray-200 text-gray-800 flex items-center gap-2">
-            <img className="w-5 h-5" src="/public/check.png" alt="check-icon" />
+            <img className="w-5 h-5" src="/check.png" alt="check-icon" />
             Message received
           </h2>
 

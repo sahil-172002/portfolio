@@ -32,7 +32,8 @@ function Layout() {
   },[]);
 
   return (
-      <ThemeProvider value={{ themeMode, lightTheme, darkTheme }}>
+     
+        <ThemeProvider value={{ themeMode, lightTheme, darkTheme }}>
           <Header />
           <Outlet>
               <About />

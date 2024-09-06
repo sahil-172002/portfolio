@@ -2,17 +2,17 @@ import React from "react";
 
 function About() {
     return (
-        <section id="services" className="bg-white dark:bg-[#00091D]">
+        <section id="services" className="bg-white dark:bg-[#00091D] overflow-hidden">
             <div className="container lg:pt-5">
                 <div className="text-center">
                     <h2 className="font-[800] text-[2.4rem] mb-5 dark:text-white ">
                         About Me
                     </h2>
                     <p className="lg:max-w-[950px] lg:mx-auto font-[500] text-[16px] leading-7 dark:text-white">
-                    I'm Sahil Andhare, a 2024 B.E. graduate in Information Technology with a strong passion for web development.<br></br> 
+                    I'm Sahil Andhare, a 2024 B.E. graduate in Information Technology with a strong passion for web development
                     I specialize in front-end technologies like HTML, CSS, JavaScript, React, Tailwind CSS, and Bootstrap,
                      & have solid experience in backend development using Node.js, Express.js, API development, and MySQL.
-                      <br></br>I’m dedicated to continuous learning and staying updated with modern web practices.
+                      I’m dedicated to continuous learning and staying updated with modern web practices.
                     </p>
                 </div>
 

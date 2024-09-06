@@ -25,17 +25,17 @@ export default function Header() {
         // <div class="absolute top-0 z-[-2] h-screen w-screen bg-[#000000] bg-[radial-gradient(#ffffff33_1px,#00091d_1px)] bg-[size:20px_20px]"></div>
             className={`${
                 header
-                    ? " bg-white dark:bg-[#0e1630] shadow-custom opacity-90 dark:bg-accent"
+                    ? "backdrop-blur"
                     : "  dark:bg-[#000000] bg-[radial-gradient(#ffffff33_1px,#00091d_1px)] bg-[size:20px_20px] "
-            } sticky top-0 z-50 transition-al `}
+            } sticky   top-0 z-50 transition-al`}
         >
-            <nav className=" border-gray-200 overflow-x-hidden px-4 g:px-6 pt-2 pb-1">
-                <div className="flex flex-wrap justify-between items-center md:mx-40 mx-auto max-w-screen-xl">
+            <nav className=" border-gray-200 max-w-7xl mx-auto overflow-x-hidden px-4 g:px-6 pt-2 pb-1  ">
+                <div className="flex flex-wrap justify-between items-center  mx-auto max-w-screen-xl md:px-10">
                     <Link to="/" className="flex items-center space-x-4 mx-0">
                         <div className="w-12 rounded-full">
                             <img className="rounded-full" src="/sa_logo.jpg" alt="profile logo" />
                         </div>
-                        <h1 className="px-0.5 text-3xl text-[#ca6202] font-bold">
+                        <h1 className="hidden md:block px-0.5 text-3xl text-[#ca6202] font-bold">
                         Sahil Andhare  
                         </h1>
                     </Link>
@@ -46,7 +46,7 @@ export default function Header() {
                             src={
                                 open
                                     ? "https://cdn.hugeicons.com/icons/cancel-01-stroke-rounded.svg"
-                                    : "https://cdn.hugeicons.com/icons/hamburger-02-stroke-rounded.svg"
+                                    : "/burger-menu-svgrepo-com.svg"
                             }
                             alt="hamburger-02"
                             name="hamburger"
@@ -147,3 +147,4 @@ export default function Header() {
         </header>
     );
 }
+    

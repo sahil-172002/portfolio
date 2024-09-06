@@ -55,8 +55,8 @@ export default function Contact() {
   }
 
   return (
-    <main className="py-20 dark:bg-[#0e1630] dark:text-white bg-[#000000] bg-[radial-gradient(#ffffff33_1px,#00091d_1px)] bg-[size:20px_20px] ">
-      <div className="w-[30%] mx-auto">
+    <main className="md:py-20 dark:bg-[#0e1630] dark:text-white bg-[#000000] bg-[radial-gradient(#ffffff33_1px,#00091d_1px)] bg-[size:20px_20px] ">
+      <div className="md:w-[30%] mx-auto p-8">
 
       
       <h1 className="text-3xl font-bold dark:text-gray-200 text-gray-800">

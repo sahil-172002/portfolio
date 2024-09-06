@@ -5,17 +5,20 @@ import CountUp from "react-countup";
 import Hero from "./hero.jpg";
 import Resume from "./Sahil Andhare_SDE.pdf";
 import About from "../About/About";
-import { BackgroundGradient } from "../ui/background-gradient";
+// import { BackgroundGradient } from "../ui/background-gradient";
 import Down from "../../assets/down.svg";
 
 export default function Home() {
     return (
         <>
             <section
-                  className="w-full min-h-screen relative pt-0 overflow-hidden dark:bg-[#0e1630] dark:text-white bg-[#000000] bg-[radial-gradient(#ffffff33_1px,#00091d_1px)] bg-[size:20px_20px]"                            
+                className="md:min-h-[90vh] relative pt-0 overflow-hidden bg-[#fff] dark:bg-[#0e1630] dark:text-white bg-[radial-gradient(#0000004f_1px,#ffffff1a_1px)] bg-[size:20px_20px] dark:bg-[radial-gradient(#ffffff33_1px,#00091d_1px)] dark:bg-[size:20px_20px ] overflow-hidden"
+                
+                
                 id="about"
             >
-                <div className="container pt-14">
+                <div className="container max-w-7xl pt-14">
+                    
                     <div className="md:flex items-center justify-between sm: flex-col md:flex-row">
                         
                         {/* Left side */}
@@ -24,7 +27,7 @@ export default function Home() {
                             <h1
                                 data-aos="fade-left"
                                 data-aos-duration="1600"
-                                className="font-[700] text-center sm:text-start text-[2.5rem] sm:text-[3rem] leading-[60px] sm:leading-[60px] mt-5"
+                                className="md:text-5xl text-center md:text-left text-3xl font-bold md:leading-[4.5rem] leading-[3rem]"
                             >
                                 
                                     <div className="w-14 h-[px] bg-black dark:bg-white"></div>
@@ -66,7 +69,8 @@ export default function Home() {
                             <p
                                 data-aos="fade-right"
                                 data-aos-duration="1700"
-                                className="flex gap-2 font-[500] text-[15px] leading-7  sm:pr-10 text-center sm:text-start text-gray-600 dark:text-gray-400 mt-3"
+                                className="flex gap-2 font-medium text-[15px] leading-7  sm:pr-10 text-center sm:text-start text-black 
+                                 dark:text-gray-400 mt-3"
                             >
                                 <br></br>
                                 I'm a web designer and full-stack developer
@@ -83,13 +87,13 @@ export default function Home() {
                                 className="flex items-center justify-center sm:justify-start gap-6 mt-7"
                             >
                                 <Link to="/contact">
-                                    <button className="button-87 ">
+                                    <button className="button-87  p-2">
                                         Contact Me
                                         <i class="ri-contacts-line ml-2"></i>
                                     </button>
                                 </Link>
                                 <a href={Resume} download={true}>
-                                    <button className="button-87" role="button">
+                                    <button className="button-87 p-2" role="button">
                                         Download CV
                                         <i class="ri-download-2-line ml-2"></i>
                                     </button>
@@ -127,11 +131,11 @@ export default function Home() {
                                 </a>
                             </div>
                         </div>
-                        <div className="rounded-full bg-gradient-to-r from-cyan-500 to-purple-800">
+                        {/* <div className="rounded-full bg-gradient-to-r from-cyan-500 to-purple-800">
                             <img 
-                                className="rounded-full sm:w-60 md:w-72 p-1"
+                                className="rounded-full hidden lg:block sm:w-60 md:w-72 p-1"
                                 src="/sa_profile_img.jpg" alt="profile pic" />
-                        </div>
+                        </div> */}
                     </div>
                 </div>
 

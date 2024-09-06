@@ -12,13 +12,13 @@ import Spotify from "../../assets/img/spotify.png";
 function Projects() {
     return (
         <>
-            <div className="dark:bg-[#0e1630]">
+            <div className="dark:bg-[#00091D]">
                 <div className="flex  justify-center items-center p-8 h-full mx-auto">
                     <h1 className="text-4xl dark:text-white  font-bold">
                         My Projects
                     </h1>
                 </div>
-                <div className="flex flex-wrap gap-2 sm:gap-14 justify-center md:justify-start md:mx-auto py-6 sm:py-0 w-full max-w-screen-lg  dark:bg-[#0e1630] ">
+                <div className="flex flex-wrap gap-2 sm:gap-14 justify-center md:justify-start md:mx-auto py-6 sm:py-0 w-full max-w-screen-lg  dark:bg-[#00091D]">
                     <Card
                         src={Social}
                         name="AiQuizGen"

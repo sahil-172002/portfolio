@@ -47,12 +47,12 @@ export default function Header() {
             <nav className=" border-gray-200 max-w-7xl mx-auto overflow-x-hidden px-4 g:px-6 pt-2 pb-1  ">
                 <div className="flex flex-wrap justify-between items-center  mx-auto max-w-screen-xl md:px-10">
                     <Link to="/" className="flex items-center space-x-4 mx-0">
-                        <div className="w-12 rounded-full">
-                            <img className="rounded-full" src="/sa_logo.jpg" alt="profile logo" />
+                        <div className="w-10 rounded-full">
+                            <img className="" src="/ssa_logo1.jpg" alt="profile logo" />
                         </div>
-                        <h1 className="hidden md:block px-0.5 text-3xl text-[#ca6202] font-bold">
-                        Sahil Andhare  
-                        </h1>
+                        <h2 className="hidden md:block px-0.5 text-3xl text-[#ca6202] font-semibold">
+                        
+                        </h2>
                     </Link>
                     <span className="cursor-pointer md:hidden flex gap-4 items-center">
                         <ThemeBtn />

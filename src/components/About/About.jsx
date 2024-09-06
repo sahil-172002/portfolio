@@ -9,10 +9,7 @@ function About() {
                         About Me
                     </h2>
                     <p className="lg:max-w-[950px] lg:mx-auto font-[500] text-[16px] leading-7 dark:text-white">
-                    I'm Sahil Andhare, a 2024 B.E. graduate in Information Technology with a strong passion for web development
-                    I specialize in front-end technologies like HTML, CSS, JavaScript, React, Tailwind CSS, and Bootstrap,
-                     & have solid experience in backend development using Node.js, Express.js, API development, and MySQL.
-                      I’m dedicated to continuous learning and staying updated with modern web practices.
+                    Currently, I work as a Full-Stack Web Developer at Bizatcloud Solutions, where I design and build dynamic web applications. I hold a B.E. in Information Technology (2024) and am passionate about web development. My expertise includes front-end technologies like HTML, CSS, JavaScript, React, Tailwind CSS, and Bootstrap, as well as backend development with Node.js, Express.js, API development, and MySQL. I am dedicated to staying current with modern web practices.
                     </p>
                 </div>
 
@@ -74,7 +71,64 @@ function About() {
                                 </div>
                             </div>
 
-                            {/* right card */}
+                            {/* right card */}  
+
+                            <div className="mt-6 sm:mt-0 sm:mb-12">
+                                <div className="flex items-center flex-col sm:flex-row">
+                                    <div className="flex justify-end w-full mx-auto items-center">
+                                        <div className="w-full sm:w-1/2 sm:pl-8">
+                                            <div
+                                                data-aos="fade-left"
+                                                data-aos-duration="1600"
+                                                className="bg-white p-4 rounded shadow group dark:bg-gray-700 hover:dark:bg-[#fd7f0b]  hover:bg-[#fd7f0b] cursor-pointer ease-in duration-150"
+                                            >
+                                                <div className="absolute inset-x-0 h-px w-1/2 mx-auto -top-px shadow-2xl  bg-gradient-to-r from-transparent via-teal-500 to-transparent" />
+
+                                                <h3
+                                                    className="font-[700] my-3
+                                                group-hover:text-white text-orange-500 group-hover:font-[600] text-2xl text-center sm:text-start"
+                                                >
+                                                    Work Experince
+                                                </h3>
+
+                                                <div className="text-[15px] flex flex-col gap-4 group-hover:text-white leading-7">
+                                                <h1>
+                                                            <i class="ri-calendar-schedule-fill mr-2"></i>
+                                                            July 2024 - Present
+                                                        </h1>
+                                                        <h1>
+                                                            <i class="ri-shield-user-fill mr-2"></i>
+                                                           Role: Full-Stack Web Developer
+                                                        </h1>
+                                                        <h1>
+                                                            <i class="ri-building-4-fill mr-2"></i>
+                                                            Company: Bizatcloud Solutions
+                                                        </h1>
+                                                        <h1>    
+                                                        <i class="ri-honour-fill"></i>
+                                                         &nbsp;  Currently working on developing full-stack web applications.  
+                                                         
+                                                        </h1>
+                                                        <h1>
+                                                            <i class="ri-map-pin-fill mr-2"></i>
+                                                            Remote,
+                                                            India
+                                                        </h1>
+
+
+                                                        
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className="rounded-full bg-orange-500  border-white dark:border-[#0e1630] border-4 w-10 h-10 absolute left-1/2 transform -translate-x-1/2 -translate-y-4 sm:translate-y-0 flex items-center justify-center">
+                                        <figure>
+                                            <i class="ri-building-2-fill text-[18px]"></i>
+                                        </figure>
+                                    </div>
+                                </div>
+                            </div>
                             <div className="mt-6 sm:mt-0 sm:mb-12">
                                 <div className="flex items-center flex-col sm:flex-row">
                                     <div className="flex justify-end w-full mx-auto items-center">
@@ -120,6 +174,8 @@ function About() {
 
 
                                                 </div>
+
+                                                
                                             </div>
                                         </div>
                                     </div>
@@ -190,6 +246,7 @@ function About() {
                                 </div>
                             </div>
                             {/* left card  */}
+                            
                             <div className="mt-6 sm:mt-0 sm:mb-12">
                                 <div className="flex items-center flex-col sm:flex-row">
                                     <div className="flex justify-start w-full mx-auto items-center">

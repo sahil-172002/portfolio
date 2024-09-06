@@ -35,51 +35,34 @@ export default function Home() {
                                     
                                     
                               
-                                I am Sahil Andhare
+                                I am Sahil Andhare,
 
                                 <h5
                                 data-aos="fade-right"
                                 data-aos-duration="1500"
-                                className="text-[#fd5e2b] pt-2 text-center sm:flex sm:justify-start text-sm uppercase font-semibold mb-4 text-primary tracking-[4px]"
-                            >
-                                <Type />
+                                className="text-[#fd5e2b] pt-2 text-center  sm:flex sm:justify-start  text-2xl uppercase font-semibold mb-4 text-primary tracking-[4px]"
+                            > 
+                              <Type /> 
                             </h5>
-                                {/* <div className="flex gap-4">v
-
-                                <div>I'm</div>
-                                <div className="waviy">
-                                    <span style={{ "--i": 1 }}>A</span>
-                                    <span style={{ "--i": 2 }}>b</span>
-                                    <span style={{ "--i": 3 }}>h</span>
-                                    <span style={{ "--i": 4 }}>i</span>
-                                    <span style={{ "--i": 5 }}>s</span>
-                                    <span style={{ "--i": 6 }}>h</span>
-                                    <span style={{ "--i": 7 }}>e</span>
-                                    <span style={{ "--i": 8 }}>k</span>
-                                </div>
-                                <div className="waviy">
-                                    <span style={{ "--i": 9 }}>S</span>
-                                    <span style={{ "--i": 10 }}>w</span>
-                                    <span style={{ "--i": 11 }}>a</span>
-                                    <span style={{ "--i": 12 }}>m</span>
-                                    <span style={{ "--i": 13 }}>i</span>
-                                    
-                                </div>
-                            </div> */}
+                          
                             </h1>
+                           
+
+                
                             <p
                                 data-aos="fade-right"
                                 data-aos-duration="1700"
-                                className="flex gap-2 font-medium text-[15px] leading-7  sm:pr-10 text-center sm:text-start text-black 
-                                 dark:text-gray-400 mt-3"
+                                className="flex gap-2 font-medium text-[18px] leading-7  sm:pr-10 text-center sm:text-start text-black 
+                                 dark:text-white mt-3"
                             >
                                 <br></br>
                                 I'm a web designer and full-stack developer
                                 focused on crafting clean & user-friendly
-                                experiences, I am passionate about building
+                                experiences, <br></br>I am passionate about building
                                 excellent software that improves the lives of
                                 those around me.
                             </p>
+                        
                             {/* Butttos  */}
                             <div
                                 data-aos="fade-up"
@@ -110,7 +93,7 @@ export default function Home() {
                                     href="https://github.com/sahil-172002"
                                     target="_blank"
                                     rel="noreferrer"
-                                    className="text-[22px] font-[400] hover:text-orange-500 transition-all ease-in duration-200"
+                                    className="text-[35px] font-[400] hover:text-orange-500 transition-all ease-in duration-200"
                                 >
                                     <i class="ri-github-fill"></i>
                                 </a>
@@ -118,7 +101,7 @@ export default function Home() {
                                     href="https://x.com/Sahil_1718_"
                                     target="_blank"
                                     rel="noreferrer"
-                                    className="text-[22px] font-[400] hover:text-orange-500 transition-all ease-in duration-200"
+                                    className="text-[31px] font-[400] hover:text-orange-500 transition-all ease-in duration-200"
                                 >
                                     <i class="ri-twitter-x-line"></i>
                                 </a>
@@ -126,7 +109,7 @@ export default function Home() {
                                     href="https://www.linkedin.com/in/sahil-andhare-3248b5205/"
                                     target="_blank"
                                     rel="noreferrer"
-                                    className="text-[22px] font-[400] hover:text-orange-500 transition-all ease-in duration-200"
+                                    className="text-[35px] font-[400] hover:text-orange-500 transition-all ease-in duration-200"
                                 >
                                     <i class="ri-linkedin-box-fill"></i>
                                 </a>

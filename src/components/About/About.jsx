@@ -48,7 +48,7 @@ function About() {
                                                         </h1>
                                                         <h1>
                                                             <i class="ri-phone-fill mr-2"></i>
-                                                            +91 8888xxxxxx
+                                                            +91 xxxxxxxxxx
                                                         </h1>
                                                         <h1>
                                                             <i class="ri-graduation-cap-fill mr-2"></i>

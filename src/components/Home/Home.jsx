@@ -5,6 +5,7 @@ import CountUp from "react-countup";
 import Hero from "./hero.jpg";
 import Resume from "./Sahil Andhare_SDE.pdf";
 import About from "../About/About";
+<script defer src="https://cloud.umami.is/script.js" data-website-id="2ce6ea76-cb24-41c3-b94e-dc67c6cbbbc1"></script>
 // import { BackgroundGradient } from "../ui/background-gradient";
 import Down from "../../assets/down.svg";
 

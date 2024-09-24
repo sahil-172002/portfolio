@@ -40,7 +40,7 @@ function Projects() {
                     />
                     <Card
                         src={yt}
-                        name="Youtube-Thumbnail Downloader"
+                        name="YT-Thumbnail Downloader"
                         desc="Developed a Blog Application in which users can post their though, ideas by writing blogs with images. "
                         T1="React"
                         T2="Tailwind CSS"

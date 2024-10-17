@@ -29,7 +29,7 @@ function Projects() {
                     />
                     <Card
                         src={g2g}
-                        name="Gamers-Soul-Store"
+                        name="Global-Gamers-Store"
                         desc="I developed web application designed to make buying and selling digital gaming assets effortless."
                         T1="Node"
                         T2="React"
